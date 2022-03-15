@@ -1,0 +1,287 @@
+@media only screen and (max-width: 1200px)
+        {
+            header
+            {
+                display: none;
+            }
+            .navbar-style
+            {
+              background-color: rgba(0,0,0,0.9) !important;
+            }
+            .nav-inside
+            {
+              font: 'Poppins', Helvetica, sans-serif;
+              color: white !important;
+            }
+            .nav-inside-elements
+            {
+              color: grey !important;
+            }
+            .tagline
+            {
+                font-size: 50px !important;
+            }
+            .button-setting
+            {
+                margin-right: 40%;
+            }
+            .map
+            {
+                height: 90% !important;
+                width: 100% !important;
+            }
+            .only-for-mobile
+            {
+                display: block !important;
+            }
+            .font-4
+            { 
+                font-size: 200%; font-weight: bolder;
+            }
+            .only-for-desktop
+            {
+                display: none;
+            }
+            #update
+            {
+                margin-top: 100%;
+            }
+            .flex-container-horizontal 
+            {
+                flex-direction: column !important;
+                flex-wrap: nowrap !important;
+            }
+            .flex-container-vertical
+            {
+                width: 90% !important;
+            }
+            .font-1{ font-size: 70% !important; font-weight: bolder;}
+            #footer
+            {
+              position: static !important;
+              /* background-color: rgba(0,0,0,0.04) !important; */
+              margin-top: 60%;
+              background-image: none !important;
+              width: 100%;
+              height: 200%;
+              background-size: cover;          
+            }
+        }
+        body, html {
+          height: 100%;
+          font-family: 'Poppins', Helvetica, sans-serif;
+        }
+        .background_main
+        {
+          background-image: url('xbg_3.png');
+          background-repeat: no-repeat;
+          background-position: center;
+          width: 100%;
+          height: 90vh;
+          background-size: cover;
+        }
+        .background2
+        {
+          background-image: url('xbg_2.png');
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+        }
+        .navbar-style
+        {
+          background-color: rgba(255,255,255,0.5);
+        }
+        .nav-inside
+        {
+          font: bolder 2em 'Poppins', Helvetica, sans-serif;
+        }
+        .nav-inside-elements
+        {
+          font: bold 1.2em 'Poppins', Helvetica, sans-serif;
+        }
+        .welcome
+        {
+            height: 10em;
+        }
+        .tagline
+        {
+            font-weight: bolder;
+            font-family: 'Poppins', Helvetica, sans-serif;
+            font-size: 70px ;
+            color: black;
+        }
+        .detail
+        {
+            font-size: 150% ;
+            color: rgba(0,0,0,0.4);
+        }
+        .round-button
+        {
+          border-radius: 15vw;
+        }
+        .round-pic
+        {
+          width: 60%;
+          border-radius: 20vw;
+          align-self: center;
+        }
+        .round-input-box
+        {
+            border-radius: 10vw;
+        }
+        .white-circle
+        {
+            size: 40% 50%;
+            background-color: white;
+            border-radius: 50%;
+            padding: auto;
+            margin: auto;
+            display: inline-block;
+            color: rgba(30, 144, 255, 0.8);
+        }
+        .red-circle
+        {
+            size: 40% 40%;
+            background-color: rgb(248, 131, 121, 0.2);
+            border-radius: 60%;
+            color: orangered
+        }
+        #img-about
+        {
+            max-height: 80%;
+            max-width: 110%;
+            overflow: hidden;
+        }   
+        .horizontal-center
+        {
+            align-content: center; 
+            text-align: center;
+            vertical-align: middle;
+        }
+        .card-width
+        {
+          width: 23em;
+        }
+        .contact-card-width
+        {
+          width: 20em;
+          background-color: rgba(0,0,0,0.04);
+        }
+        .testimonial-width
+        {
+          width: 20em;
+          background: transparent;
+        }
+        .center-content
+        {
+            text-align: center;
+        }
+        .blue-overlay-bg1
+        {
+            width: 100%;
+            height: 80vh;
+            background: rgba(30, 144, 255, 0.8); 
+            background: linear-gradient(rgb(30, 144, 255, 0.8), rgb(30, 144, 255, 0.8)), url("xbg_3.png"); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .blue-overlay-bg2
+        {
+            width: 200%;
+            height: 100vh;
+            background: rgba(30, 144, 255, 0.8);  /* fallback colour. Make sure this is just one solid colour. */
+            background: linear-gradient(rgb(30, 144, 255, 0.8), rgb(30, 144, 255, 0.8)), url("xbg_3.png");  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(rgb(30, 144, 255, 0.8), rgb(30, 144, 255, 0.8)), url("xbg_3.png"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        table 
+        {
+            border-collapse: collapse;
+            border-style: hidden;
+        }
+        table td 
+        {
+            padding: 5%;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        #contact-us
+        {
+           background-color: rgba(0,0,0,0.04);
+        }
+        #footer
+        {
+          background-image: url('footer.jpeg');
+          background-repeat: no-repeat;
+          background-position: center;
+          width: 100%;
+          height: 90vh;
+          background-size: cover;          
+        }
+        .flex-container-horizontal 
+        {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        .flex-container-vertical 
+        {
+            display: flex;
+            flex-direction: column;
+            width: 15%;
+        }
+
+        ul{
+            padding-left: 0%;
+        }
+
+        .footer-li{
+			list-style: none;
+            color: rgba(30, 144, 255, 0.8);
+            padding-bottom: 5%;
+		}
+
+        #our-services
+        {
+            background-color: rgba(0,0,0,0.04);
+        }
+
+        .map
+        {
+            height: 600px;
+            width: 550px;
+        }
+        .only-for-mobile
+        {
+            display: none;
+        }
+
+        .height-40{height: 40em;}
+        .black{color: black;}
+        .padding-top-15{padding-top: 15%;}
+        .padding-top-25{padding-top: 25%;}
+        .padding-top-150{padding-top: 150%;}
+        .padding-top-20{padding-top: 20%;}
+        .padding-top-10{padding-top: 10%;}
+        .padding-top-5{padding-top: 5%;}
+        .margin-top-100{margin-top: 100%;}
+        .padding-auto{padding: auto;}
+        .padding-left-10{padding-left: 10%;}
+        .padding-left-50{padding-left: 48%;}
+        .btn-white{background-color: white;}
+        .font-4{ font-size: 400%; font-weight: bolder;}
+        .font-2{ font-size: 2em; font-weight: bolder;}
+        .font-1{ font-size: 100%; font-weight: bolder;}
+        .font-less-1{ font-size: 0.8em;}
+        .row-margin-05 { margin-bottom: 0.5em; }
+        .row-margin-10 { margin-bottom: 1.0em; }
+        .row-margin-20 { margin-bottom: 2.0em; }
+        .row-margin-30 { margin-bottom: 3.0em; }
+        .row-margin-40 { margin-bottom: 4.0em; }
+        .row-margin-50 { margin-bottom: 5.0em; }
+        .row-margin-60 { margin-bottom: 6.0em; }
+        .row-margin-70 { margin-bottom: 7.0em; }
+        .row-margin-80 { margin-bottom: 8.0em; }

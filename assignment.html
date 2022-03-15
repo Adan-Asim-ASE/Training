@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediPlus - A Medical Clinic</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/da7a972dd0.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="mystyle.css">
+
+    <SCRIPT>
+    function ShowAndHide() 
+    {
+        var x = document.getElementById('bg-menu');
+        if (x.style.display == 'none') {
+            x.style.display = 'block';
+        } 
+        else {
+            x.style.display = 'none';
+        }
+    }
+</SCRIPT>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header>
+            <div class="row p-1 justify-content-between bg-primary">
+                <a href="tel:+923004344082" class="col-md-3 offset-md-1 text-white"> <i class="fa-solid fa-phone"></i> + 92 300 43 44 082 </a>
+                <a href="mailto: adan.asim@devsinc.com" class="col-md-4 text-white"> <i class="fa-solid fa-paper-plane"></i>  adan.asim@devsinc.com </a>
+                <a href="" class="col-md-3 text-white">SIGNIN &nbsp | &nbsp SIGNUP</a>
+            </div>
+        </header>
+        
+        <div class="row justify-content-between">
+            <div class="background_main">
+                <div class="container-fluid">
+                    <div class="row row-margin-60 align-items-start ">
+                        <nav class="col-sm-12 navbar navbar-expand-xl p-4 navbar-light navbar-style flex-wrap">
+                            <a class="navbar-brand nav-inside col-sm-0 offset-sm-1" href="#">Mediplus</a>
+                            <button class="navbar-toggler nav-inside-elements" type="button" data-toggle="collapse" ONCLICK="ShowAndHide()" data-target="#collapsibleNavbar">
+                                <span class="navbar-toggler-icon nav-inside-elements" name="Menu-button" id="Menu-button"> </span>MENU
+                            </button>
+                        <div class="container">
+                            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="col-sm-10 navbar-nav ml-auto justify-content-around w-100 flex-wrap">
+                        <li class="nav-item">
+                          <a class="nav-link nav-inside-elements" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link nav-inside-elements" href="#img-about">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link nav-inside-elements" href="#Description">Department</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link nav-inside-elements" href="#Doctors">Doctors</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link nav-inside-elements" href="#update">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link nav-inside-elements" href="#footer">Contact</a>
+                        </li>    
+                    </ul> 
+                    <button class="btn btn-danger">
+                      Appointment
+                    </button>
+                            </div>
+                        </nav> 
+                    </div>
+                <div id="bg-menu">
+                    <div class="row mb-4 align-items-center">   
+                        <h5 class="col-xl-3 offset-1 text-primary"> WELCOME TO MEDIPLUS </h5>
+                    </div>
+                    <div class="row align-items-center">
+                        <h1 class="col-xl-5 mb-3 offset-1 tagline"> <strong> We are here <br> for your care </strong></h1>
+                    </div>
+                    <div class="row align-items-center">
+                        <h1 class="col-xl-6 mb-5 offset-1 detail">Far Far away, behind the word mountains, far from the countries Vokalia and Consantia, there live the blind texts. Separated they live in Bookmakrsgroove</h1>
+                    </div>
+                    <div class="row align-items-center">
+                        <button class="col-lg-2 offset-1 btn btn-primary btn p-4 round-button button-setting">
+                            Make an Appointment
+                        </button> 
+                    </div>
+                </div>
+                </div>
+            </div> 
+        </div>
+
+        <div class="row">
+            <div class="col-lg-5 offset-1">
+                <img src="xaboute.png" alt="A doctor with patient" id="img-about">
+            </div>
+            <div class="col-lg-5 align-self-center" >
+                <div class="d-flex flex-column " style="overflow: hidden;">
+                    <h2 class="tagline"> We are <span class="text-primary">MediPlus</span> A Medical Clinic</h2>
+                    <h6 class="detail row-margin-10"> A small river named Duden flows by their place and supplies it  with the necessary regilialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</h6>
+                    
+                    <div class="d-flex flex-wrap row-margin-05">
+                        <button class="btn col-md-5 m-1 btn-primary btn p-4 round-button ">
+                            Make an Appointment
+                        </button> 
+                        <button class="btn col-md-3 m-1 btn-danger p-4 round-button">
+                            Contact Us
+                        </button>
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+        <div class = "row padding-top-10 only-for-mobile" >
+            <div class="container">
+                <div class="row ml-0">
+                    <h2 class="tagline padding-top-10 row-margin-20"> Our Services</h2>
+                </div>
+                <table class="row-margin-70">
+                    <tr >
+                        <td><span class="red-circle p-5"><i class="fa-solid fa-truck-medical fa-2x"></i></span></td>
+                        <td class="detail font-1"><span class="black font-1">Emergency Services</span><br><br>203 Fake St. Mountain View San Fransisco, California, USA</td>
+                    </tr>
+                    <tr >
+                        <td><span class="red-circle p-5 "><i class="fa-solid fa-user-doctor fa-2x"></i></span></td>
+                        <td class="detail font-1"><span class="black font-1">Qualified Doctors</span><br><br>203 Fake St. Mountain View San Fransisco, California, USA</td>
+                    </tr>
+                    <tr >
+                        <td><span class="red-circle p-5 "><i class="fa-solid fa-stethoscope fa-2x"></i></span></td>
+                        <td class="detail font-1"><span class="black font-1">Outdoors Checkup</span><br><br>203 Fake St. Mountain View San Fransisco, California, USA</td>
+                    </tr>
+                    <tr >
+                        <td><span class="red-circle p-5 "><i class="fa-solid fa-clock fa-2x"></i></span></td>
+                        <td class="detail font-1"><span class="black font-1">24 Hours Service</span><br><br>203 Fake St. Mountain View San Fransisco, California, USA</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="row row-margin-60 only-for-mobile">
+            <div class="col-md-4 align-self-center">
+                <h2 class="detail font-2 text-primary padding-top-10 row-margin-20"> FREE CONSULTATION</h2>
+                <form action="">
+                    <div class="form-group">
+                      <input type="text" class="form-control round-input-box p-2" placeholder="First Name" >
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control round-input-box p-2"  placeholder="Last Name" >
+                    </div>
+                    <div class="form-group">
+                        <select name="dog-names" class="form-control round-input-box p-2" id="dog-names" aria-placeholder="Service">
+                            <option value="rigatoni">Select Service</option>
+                            <option value="dave">1</option>
+                            <option value="pumpernickel">2</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control round-input-box p-2" placeholder="Phone">
+                    </div>
+                    <div class="form-group">
+                        <input type="date" class="form-control round-input-box p-2" placeholder="Date">
+                    </div>  
+                    <div class="form-group">
+                        <input type="time" class="form-control round-input-box p-2" placeholder="Time">
+                    </div>  
+                    <div class="form-group">
+                      <input type="text" class="form-control round-input-box p-2" placeholder="Message">
+                    </div>
+                    <button type="submit" class=" col-12 btn btn-danger p-3 round-button">Appointment</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="row" id="Description">
+            <div class="col-md-12 background2">
+                <div class="d-flex align-self-center flex-column flex-wrap horizontal-center height-40 padding-top-15">
+                    <h1 class="text-white tagline">Your health is our priority</h1>
+                    <h6 class="text-white-50 row-margin-10 detail"> We can manage your dream building A small river named Duden flows by thir place </h6>
+                    <div class="d-flex align-self-center">
+                        <button class="btn btn-lg p-4 btn-white round-button ">
+                            Search Places
+                        </button> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-margin-60 mt-5 only-for-mobile">
+            <div class="container">
+                <div class="row mt-3 justify-content-center">
+                    <div> <i class="fa-solid fa-stethoscope text-primary fa-2x offset-sm-12"></i></div>
+                </div>
+                <div class="row mt-3 mb-5 justify-content-center">
+                    <div class="detail black font-2">Neurology</div>
+                </div>
+                <div class="row mt-3 mb-5 center-content">
+                    <div class="detail">Far far away behind the word mountains</div>
+                </div>
+                <hr>
+                <div class="row mt-5 justify-content-center">
+                    <div> <i class="fa-solid fa-stethoscope text-primary fa-2x offset-sm-12"></i></div>
+                </div>
+                <div class="row mt-3 mb-5 justify-content-center">
+                    <div class="detail black font-2">Surgical</div>
+                </div>
+                <div class="row mt-3 mb-5 center-content">
+                    <div class="detail">Far far away behind the word mountains</div>
+                </div>
+                <hr>
+                <div class="row mt-5 justify-content-center">
+                    <div> <i class="fa-solid fa-stethoscope text-primary fa-2x offset-sm-12"></i></div>
+                </div>
+                <div class="row mt-3 mb-5 justify-content-center">
+                    <div class="detail black font-2">Dental</div>
+                </div>
+                <div class="row mt-3 mb-5 center-content">
+                    <div class="detail">Far far away behind the word mountains</div>
+                </div>
+                <hr>
+                <div class="row mt-5 justify-content-center">
+                    <div> <i class="fa-solid fa-stethoscope text-primary fa-2x offset-sm-12"></i></div>
+                </div>
+                <div class="row mt-3 mb-5 justify-content-center">
+                    <div class="detail black font-2">Opthalmology</div>
+                </div>
+                <div class="row mt-3 mb-5 center-content">
+                    <div class="detail">Far far away behind the word mountains</div>
+                </div>
+                <hr>
+                <div class="row mt-5 justify-content-center">
+                    <div> <i class="fa-solid fa-stethoscope text-primary fa-2x offset-sm-12"></i></div>
+                </div>
+                <div class="row mt-3 mb-5 justify-content-center">
+                    <div class="detail black font-2">Cardiology</div>
+                </div>
+                <div class="row mt-3 mb-5 center-content">
+                    <div class="detail">Far far away behind the word mountains</div>
+                </div>
+                <hr>
+                <div class="row mt-5 justify-content-center">
+                    <div> <i class="fa-solid fa-stethoscope text-primary fa-2x offset-sm-12"></i></div>
+                </div>
+                <div class="row mt-3 mb-5 justify-content-center">
+                    <div class="detail black font-2">Traumatology</div>
+                </div>
+                <div class="row mt-3 mb-5 center-content">
+                    <div class="detail">Far far away behind the word mountains</div>
+                </div>
+                <hr>
+                <div class="row mt-5 justify-content-center">
+                    <div> <i class="fa-solid fa-stethoscope text-primary fa-2x offset-sm-12"></i></div>
+                </div>
+                <div class="row mt-3 mb-5 justify-content-center">
+                    <div class="detail black font-2">Xray</div>
+                </div>
+                <div class="row mt-3 mb-5 center-content">
+                    <div class="detail">Far far away behind the word mountains</div>
+                </div>
+                <hr>
+                <div class="row mt-5 justify-content-center">
+                    <div> <i class="fa-solid fa-stethoscope text-primary fa-2x offset-sm-12"></i></div>
+                </div>
+                <div class="row mt-3 mb-5 justify-content-center">
+                    <div class="detail black font-2">Cardiology</div>
+                </div>
+                <div class="row mt-3 mb-5 center-content">
+                    <div class="detail">Far far away behind the word mountains</div>
+                </div>
+                <hr>
+            </div>        
+        </div>
+
+
+        <div class="row justify-content-center" id="Doctors">
+            <div class="col-md-8 padding-top-10 horizontal-center">
+                <div class="d-flex align-self-center flex-column flex-wrap">
+                    <h1 class="text-black tagline">Our Qualified Doctors</h1>
+                    <h6 class="text-black-50 detail"> Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country </h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5 row-margin-70 justify-content-around">
+            <div class="card-deck doctors">
+                <div class="card mb-3 border-0 align-self card-width center-content">
+                  <img class="card-img-top" src="xdoc-1.png" alt="Doctor image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">Dr. Lloyd Wilson</h4>
+                    <h6 class="text-primary"><strong>NEUROLOGIST</strong></h6>
+                    <p class="card-text text-black-50 ">I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+                    <a href="#" class="btn-lg btn-primary round-button">Book now</a>
+                  </div>
+                </div>
+          
+                <div class="card mb-3 border-0 align-self card-width center-content">
+                  <img class="card-img-top" src="xdoc-2.png" alt="Doctor image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">Dr. Rachel Parker</h4>
+                    <h6 class="text-primary"><strong>OPHTHALMOLOGIST</strong></h6>
+                    <p class="card-text text-black-50 ">I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+                    <a href="#" class="btn-lg btn-primary round-button">Book now</a>
+                  </div>
+                </div>
+          
+                <div class="card mb-3 border-0 align-self card-width center-content">
+                  <img class="card-img-top" src="xdoc-3.png" alt="Doctor image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">Dr. Ian Smith</h4>
+                    <h6 class="text-primary"><strong>DENTIST</strong></h6>
+                    <p class="card-text text-black-50 ">I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+                    <a href="#" class="btn-lg btn-primary round-button">Book now</a>
+                  </div>
+                </div>
+          
+                <div class="card mb-3 border-0 align-self card-width center-content">
+                  <img class="card-img-top" src="xdoc-4.png" alt="Doctor image">
+                  <div class="card-body">
+                    <h4 class="card-title">Dr. Alicia Henders</h4>
+                    <h6 class="text-primary"><strong>PEDIATRICIAN</strong></h6>
+                    <p class="card-text text-black-50 ">I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+                    <a href="#" class="btn-lg btn-primary round-button">Book now</a>
+                  </div>
+                </div>
+            </div>         
+        </div>
+
+        <div class="row">
+            <div class=" blue-overlay-bg1">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-5 offset-1 padding-top-10">
+                            <div class="d-flex flex-column flex-wrap">
+                                <h5 class="text-white mb-4"> FUN FACTS </h5> 
+                                <h1 class="text-white mb-5 font-4">Over 5,100 patients trust us</h1> 
+                                <button class="col-md-5 btn btn-danger p-3 round-button">
+                                    Make an Appointment
+                                </button> 
+                            </div>
+                        </div>
+                        <div class="col-md-5 padding-top-10 only-for-desktop">
+                            <div class="d-flex flex-column flex-wrap">
+                                <table>
+                                    <tr class="horizontal-center">
+                                      <td><div class="font-4 text-white">30</div><div class="detail text-white-50"> Years of Experienced</div></td>
+                                      <td><div class="font-4 text-white">4,500</div><div class="detail text-white-50"> Happy Patients</div></td>
+                                      
+                                    </tr>
+                                    <tr class="horizontal-center">
+                                        <td><div class="font-4 text-white">84</div><div class="detail text-white-50"> Numbers of Doctors</div></td>
+                                        <td><div class="font-4 text-white">300</div><div class="detail text-white-50"> Number of Staffs</div></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="container blue-overlay-bg1 only-for-mobile">
+                            <div class="row mt-5 mb-2  justify-content-center">
+                                <div class="detail text-white font-2">30</div>
+                            </div>
+                            <div class="row mt-2 mb-2 justify-content-center">
+                                <div class="detail text-white">Years of Experience</div>
+                            </div>
+                            <hr>
+                            <div class="row mt-4 mb-2  justify-content-center">
+                                <div class="detail text-white font-2">4500</div>
+                            </div>
+                            <div class="row mt-3 mb-2 justify-content-center">
+                                <div class="detail text-white">Happy Patients</div>
+                            </div>
+                            <hr>
+                            <div class="row mt-4 mb-2  justify-content-center">
+                                <div class="detail text-white font-2">84</div>
+                            </div>
+                            <div class="row mt-4 mb-2 justify-content-center">
+                                <div class="detail text-white">Number of Doctors</div>
+                            </div>
+                            <hr>
+                            <div class="row mt-4 mb-2  justify-content-center">
+                                <div class="detail text-white font-2">300</div>
+                            </div>
+                            <div class="row mt-3 mb-2 justify-content-center">
+                                <div class="detail text-white">Number of Staff</div>
+                            </div>
+                        </div>            
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center row-margin-80 " id="update">
+            <div class="col-md-8 padding-top-10 horizontal-center">
+                <div class="d-flex align-self-center flex-column flex-wrap">
+                    <h1 class="text-black font-4 mb-4 ">Gets Every Single Updates Here</h1>
+                    <h6 class="text-black-50 detail"> Far Far away, behind the word mountains, far from the countries Vokalia and Consantia </h6>
+                </div>
+            </div>
+        </div>        
+
+        <div class="row row-margin-50 justify-content-around w-100">
+            <div class="card-deck">
+                <div class="card mb-4 border-0 align-self card-width">
+                    <img class="card-img-top" src="ximage_1.png" alt="Doctor images">
+                    <div class="card-body">
+                        <p class="font-less-1 text-danger"> JUNE 9, 2019 ADMIN  <i class="fa-solid fa-message"></i> 3 </p>
+                        <h5 class="card-title">Scary Things That Don´t Get Enough Sleep</h5>
+                        <p class="card-text text-black-50">Far Far away, behind the word mountains, far from the countries Vokalia and Consantia, there live the blind texts</p>
+                        <a href="#" class="btn btn-primary round-button">Read more</a>
+                    </div>
+                  </div>
+                  <div class="card mb-4 border-0 align-self card-width">
+                    <img class="card-img-top" src="ximage_2.png" alt="Doctor images">
+                    <div class="card-body">
+                        <p class="font-less-1 text-danger"> JUNE 9, 2019 ADMIN  <i class="fa-solid fa-message"></i> 3 </p>
+                        <h5 class="card-title">Scary Things That Don´t Get Enough Sleep</h5>
+                        <p class="card-text text-black-50">Far Far away, behind the word mountains, far from the countries Vokalia and Consantia, there live the blind texts</p>
+                        <a href="#" class="btn btn-primary round-button">Read more</a>
+                    </div>
+                  </div>
+                  <div class="card mb-4 border-0 align-self card-width">
+                    <img class="card-img-top" src="ximage_3.png" alt="Doctor images">
+                    <div class="card-body">
+                        <p class="font-less-1 text-danger"> JUNE 9, 2019 ADMIN  <i class="fa-solid fa-message"></i> 3 </p>
+                        <h5 class="card-title">Scary Things That Don´t Get Enough Sleep</h5>
+                        <p class="card-text text-black-50">Far Far away, behind the word mountains, far from the countries Vokalia and Consantia, there live the blind texts</p>
+                        <a href="#" class="btn btn-primary round-button">Read more</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="row mt-5 row-margin-50 justify-content-around w-100">
+            <div class="card-deck">
+                <div class="card mb-4 border-0 align-self card-width">
+                    <img class="card-img-top" src="ximage_1.png" alt="Doctor images">
+                    <div class="card-body">
+                        <p class="font-less-1 text-danger"> JUNE 9, 2019 ADMIN  <i class="fa-solid fa-message"></i> 3 </p>
+                        <h5 class="card-title">Scary Things That Don´t Get Enough Sleep</h5>
+                        <p class="card-text text-black-50">Far Far away, behind the word mountains, far from the countries Vokalia and Consantia, there live the blind texts</p>
+                        <a href="#" class="btn btn-primary round-button">Read more</a>
+                    </div>
+                  </div>
+                  <div class="card mb-4 border-0 align-self card-width">
+                    <img class="card-img-top" src="ximage_5.jpg.jpeg" alt="Doctor images">
+                    <div class="card-body">
+                        <p class="font-less-1 text-danger"> JUNE 9, 2019 ADMIN  <i class="fa-solid fa-message"></i> 3 </p>
+                        <h5 class="card-title">Scary Things That Don´t Get Enough Sleep</h5>
+                        <p class="card-text text-black-50">Far Far away, behind the word mountains, far from the countries Vokalia and Consantia, there live the blind texts</p>
+                        <a href="#" class="btn btn-primary round-button">Read more</a>
+                    </div>
+                  </div>
+                  <div class="card mb-4 border-0 align-self card-width">
+                    <img class="card-img-top" src="xdept-1.png" alt="Doctor images">
+                    <div class="card-body">
+                        <p class="font-less-1 text-danger"> JUNE 9, 2019 ADMIN  <i class="fa-solid fa-message"></i> 3 </p>
+                        <h5 class="card-title">Scary Things That Don´t Get Enough Sleep</h5>
+                        <p class="card-text text-black-50">Far Far away, behind the word mountains, far from the countries Vokalia and Consantia, there live the blind texts</p>
+                        <a href="#" class="btn btn-primary round-button">Read more</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class=" blue-overlay-bg2">
+                <div class="horizontal-center padding-top-10">
+                    <div class="d-flex flex-column flex-wrap">
+                        <h5 class="text-white mb-4"> READ TESTIMONIALS </h5> 
+                        <h1 class="text-white mb-5 font-4">Our Patient Says</h1>
+                        
+                        
+                        <div id="carouselExampleIndicators" class="carousel slide only-for-desktop" data-ride="carousel" id="">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                <div class="card-deck justify-content-around">
+                                      <div class="card col-md-2 border-0 testimonial-width">
+                                        <img src="xperson_3.jpg.jpeg" class="card-img-top round-pic" alt="pic" >
+                                        <div class="card-body">
+                                            <p class="card-text text-black-50">Far Far away, behind the word mountains, far from the countries Vokalia and Consantia, there live the blind texts</p>
+                                            <h5 class="card-title text-white">Jeff Freshman</h5>
+                                            <p class="card-text text-white">Patient</h5>
+                                        </div>
+                                      </div>
+                                      <div class="card col-md-2 border-0 testimonial-width">
+                                        <img src="xperson_3.jpg.jpeg" class="card-img-top round-pic" alt="pic" >
+                                        <div class="card-body">
+                                            <p class="card-text text-black-50">Far Far away, behind the word mountains, far from the countries Vokalia and Consantia, there live the blind texts</p>
+                                            <h5 class="card-title text-white">Jeff Freshman</h5>
+                                            <p class="card-text text-white">Patient</h5>
+                                        </div>
+                                      </div>
+                                      <div class="card col-md-2 border-0 testimonial-width">
+                                        <img src="xperson_3.jpg.jpeg" class="card-img-top round-pic" alt="pic" >
+                                        <div class="card-body">
+                                            <p class="card-text text-black-50">Far Far away, behind the word mountains, far from the countries Vokalia and Consantia, there live the blind texts</p>
+                                            <h5 class="card-title text-white">Jeff Freshman</h5>
+                                            <p class="card-text text-white">Patient</h5>
+                                        </div>
+                                      </div>
+                                </div>
+                                </div>
+                                <div class="carousel-item">
+                                <div class="card-deck justify-content-around">
+                                    <div class="card col-md-2 border-0 testimonial-width">
+                                      <img src="xperson_3.jpg.jpeg" class="card-img-top round-pic" alt="pic" >
+                                      <div class="card-body">
+                                          <p class="card-text text-black-50">Far Far away, behind the word mountains, far from the countries Vokalia and Consantia, there live the blind texts</p>
+                                          <h5 class="card-title text-white">Jeff Freshman</h5>
+                                          <p class="card-text text-white">Patient</h5>
+                                      </div>
+                                    </div>
+                                    <div class="card col-md-2 border-0 testimonial-width">
+                                      <img src="xperson_3.jpg.jpeg" class="card-img-top round-pic" alt="pic" >
+                                      <div class="card-body">
+                                          <p class="card-text text-black-50">Far Far away, behind the word mountains, far from the countries Vokalia and Consantia, there live the blind texts</p>
+                                          <h5 class="card-title text-white">Jeff Freshman</h5>
+                                          <p class="card-text text-white">Patient</h5>
+                                      </div>
+                                    </div>
+                                    <div class="card col-md-2 border-0 testimonial-width">
+                                      <img src="xperson_3.jpg.jpeg" class="card-img-top round-pic" alt="pic" >
+                                      <div class="card-body">
+                                          <p class="card-text text-black-50">Far Far away, behind the word mountains, far from the countries Vokalia and Consantia, there live the blind texts</p>
+                                          <h5 class="card-title text-white">Jeff Freshman</h5>
+                                          <p class="card-text text-white">Patient</h5>
+                                      </div>
+                                    </div>
+                              </div>
+                                </div>
+                                <div class="carousel-item">
+                                <div class="card-deck justify-content-around">
+                                    <div class="card col-md-2 border-0 testimonial-width">
+                                      <img src="xperson_3.jpg.jpeg" class="card-img-top round-pic" alt="pic" >
+                                      <div class="card-body">
+                                          <p class="card-text text-black-50">Far Far away, behind the word mountains, far from the countries Vokalia and Consantia, there live the blind texts</p>
+                                          <h5 class="card-title text-white">Jeff Freshman</h5>
+                                          <p class="card-text text-white">Patient</h5>
+                                      </div>
+                                    </div>
+                                    <div class="card col-md-2 border-0 testimonial-width">
+                                      <img src="xperson_3.jpg.jpeg" class="card-img-top round-pic" alt="pic" >
+                                      <div class="card-body">
+                                          <p class="card-text text-black-50">Far Far away, behind the word mountains, far from the countries Vokalia and Consantia, there live the blind texts</p>
+                                          <h5 class="card-title text-white">Jeff Freshman</h5>
+                                          <p class="card-text text-white">Patient</h5>
+                                      </div>
+                                    </div>
+                                    <div class="card col-md-2 border-0 testimonial-width">
+                                      <img src="xperson_3.jpg.jpeg" class="card-img-top round-pic" alt="pic" >
+                                      <div class="card-body">
+                                          <p class="card-text text-black-50">Far Far away, behind the word mountains, far from the countries Vokalia and Consantia, there live the blind texts</p>
+                                          <h5 class="card-title text-white">Jeff Freshman</h5>
+                                          <p class="card-text text-white">Patient</h5>
+                                      </div>
+                                    </div>
+                              </div>
+                                </div>
+                                <ul class="carousel-indicators padding-top-25" style="position: relative;">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"> <i class="fa-solid fa-envelope"></i></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"> </li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="carouselExampleIndicators" class="carousel slide only-for-mobile" data-ride="carousel" id="">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                <div class="card-deck justify-content-around">
+                                      <div class="card col-md-2 offset-2 border-0 testimonial-width">
+                                        <img src="xperson_3.jpg.jpeg" class="card-img-top round-pic" alt="pic" >
+                                        <div class="card-body">
+                                            <p class="card-text text-black-50">Far Far away, behind the word mountains, far from the countries Vokalia and Consantia, there live the blind texts</p>
+                                            <h5 class="card-title text-white">Jeff Freshman</h5>
+                                            <p class="card-text text-white">Patient</h5>
+                                        </div>
+                                      </div>
+                                </div>
+                                </div>
+                                <div class="carousel-item">
+                                <div class="card-deck justify-content-around">
+                                    <div class="card col-md-2 offset-2 border-0 testimonial-width">
+                                      <img src="xperson_3.jpg.jpeg" class="card-img-top round-pic" alt="pic" >
+                                      <div class="card-body">
+                                          <p class="card-text text-black-50">Far Far away, behind the word mountains, far from the countries Vokalia and Consantia, there live the blind texts</p>
+                                          <h5 class="card-title text-white">Jeff Freshman</h5>
+                                          <p class="card-text text-white">Patient</h5>
+                                      </div>
+                                    </div>
+                              </div>
+                                </div>
+                                <div class="carousel-item">
+                                <div class="card-deck justify-content-around">
+                                    <div class="card col-md-2 offset-2 border-0 testimonial-width">
+                                      <img src="xperson_3.jpg.jpeg" class="card-img-top round-pic" alt="pic" >
+                                      <div class="card-body">
+                                          <p class="card-text text-black-50">Far Far away, behind the word mountains, far from the countries Vokalia and Consantia, there live the blind texts</p>
+                                          <h5 class="card-title text-white">Jeff Freshman</h5>
+                                          <p class="card-text text-white">Patient</h5>
+                                      </div>
+                                    </div>
+                              </div>
+                                </div>
+                                <ul class="carousel-indicators margin-top-100" style="position: relative;">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"> <i class="fa-solid fa-envelope"></i></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"> </li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row row-margin-70 justify-content-center">
+            <div class="col-md-6 padding-top-10 horizontal-center">
+                <div class="d-flex align-self-center flex-column flex-wrap">
+                    <h1 class="text-black tagline">Contact Us</h1>
+                    <h6 class="text-black-50 detail"> Far Far away, behind the word mountains, far from the countries Vokalia and Consantia </h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5 row-margin-70 justify-content-around">
+            <div class="card-deck doctors">
+                <div class="card mb-3 border-0 align-self contact-card-width center-content">
+                    <div class="white-circle p-5 mt-5 mb-5">
+                        <i class="fa-solid fa-signs-post fa-2x"></i>
+                    </div>
+                  <div class="card-body">
+                    <h4 class="card-title mb-3">Address</h4>
+                    <p class="card-text text-black-50 ">198 West 21th Street, Suite 721 New York NY 10016</p>
+                  </div>
+                </div>
+          
+                <div class="card mb-3 border-0 align-self contact-card-width center-content">
+                    <div class="white-circle p-5 mt-5 mb-5">
+                        <i class="fa-solid fa-phone fa-2x"></i>
+                    </div>
+                  <div class="card-body">
+                    <h4 class="card-title mb-3">Contact Number</h4>
+                    <p class="card-text text-black-50 ">+92 300 43 44 082</p>
+                  </div>
+                </div>
+          
+                <div class="card mb-3 border-0 align-self contact-card-width center-content">
+                    <div class="white-circle p-5 mt-5 mb-5">
+                        <i class="fa-solid fa-paper-plane fa-2x"></i>
+                    </div>
+                  <div class="card-body">
+                    <h4 class="card-title mb-3">Email Address </h4>
+                    <p class="card-text text-black-50 "> asimadan@gmail.com</p>
+                  </div>
+                </div>
+          
+                <div class="card mb-3 border-0 align-self contact-card-width center-content">
+                    <div class="white-circle p-5 mt-5 mb-5">
+                        <i class="fa-solid fa-solid fa-earth-americas fa-2x"></i>
+                    </div>
+                  <div class="card-body">
+                    <h4 class="card-title mb-3">Website</h4>
+                    <p class="card-text text-black-50 ">youtube.com</p>
+                  </div>
+                </div>
+            </div>         
+        </div>
+
+        <div class="row row-margin-80" id="contact-us">
+            <div class="col-md-5 offset-md-1 only-for-desktop">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.018739216239!2d74.42049271566685!3d31.468670681386676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391905fce8485861%3A0x8da1388336e3a45!2sDevsinc!5e0!3m2!1sen!2s!4v1647175688199!5m2!1sen!2s" class="map" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+            </div>
+            <div class="col-md-4 padding-top-5 align-self-center">
+                <form action="">
+                    <div class="form-group">
+                      <input type="email" class="form-control p-2" id="email" placeholder="Your email" name="email">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" class="form-control p-2" id="pwd" placeholder="Your password" name="pwd">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control p-2" id="subject" placeholder="Subject" name="email">
+                    </div>
+                    <div class="form-group">
+                      <textarea class="form-control" rows="8" id="comment" placeholder="Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-danger p-3 round-button">Send Message</button>
+                </form>
+            </div>
+            <div class="padding-top-20 col-md-5 offset-md-1 only-for-mobile">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.018739216239!2d74.42049271566685!3d31.468670681386676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391905fce8485861%3A0x8da1388336e3a45!2sDevsinc!5e0!3m2!1sen!2s!4v1647175688199!5m2!1sen!2s" class="map" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+
+        <div class="flex-container-horizontal padding-top-10 row-margin-30" id="footer">
+            <div class="flex-container-vertical">
+                <p class="font-1"> <strong>MediPlus</strong></p>
+                <p class="detail font-1"> Far far away, behind the world mountains, far from the countries.</p>
+
+            </div>
+            <div class="flex-container-vertical">
+                <p class="font-1"> <strong>Departments</strong></p>
+                <ul>
+                    <li class="footer-li"><a href="#" ><i class="fas fa-long-arrow-alt-right"></i> Neurology</a></li>
+                    <li class="footer-li"><a href="#" ><i class="fas fa-long-arrow-alt-right"></i> Optamology</a></li>
+                    <li class="footer-li"><a href="#" ><i class="fas fa-long-arrow-alt-right"></i> Nuclear Magnetic</a></li>
+                    <li class="footer-li"><a href="#" ><i class="fas fa-long-arrow-alt-right"></i> Surgical</a></li>
+                    <li class="footer-li"><a href="#" ><i class="fas fa-long-arrow-alt-right"></i> Cardiology</a></li>
+                    <li class="footer-li"><a href="#" ><i class="fas fa-long-arrow-alt-right"></i> Dental</a></li>
+                </ul>
+            </div>
+            <div class="flex-container-vertical">
+                <p class="font-1"> <strong>Links</strong></p>
+                <ul>
+                    <li class="footer-li"><a href="#" ><i class="fas fa-long-arrow-alt-right"></i> Home</a></li>
+                    <li class="footer-li"><a href="#" ><i class="fas fa-long-arrow-alt-right"></i> About</a></li>
+                    <li class="footer-li"><a href="#" ><i class="fas fa-long-arrow-alt-right"></i> Departments</a></li>
+                    <li class="footer-li"><a href="#" ><i class="fas fa-long-arrow-alt-right"></i> Doctors</a></li>
+                    <li class="footer-li"><a href="#" ><i class="fas fa-long-arrow-alt-right"></i> Blog</a></li>
+                    <li class="footer-li"><a href="#" ><i class="fas fa-long-arrow-alt-right"></i> Pricing</a></li>
+                    <li class="footer-li"><a href="#" ><i class="fas fa-long-arrow-alt-right"></i> Contact</a></li>
+                </ul>
+            </div>
+            <div class="flex-container-vertical">
+                <p class="font-1"> <strong>Services</strong></p>
+                <ul>
+                    <li class="footer-li"><a href="#" ><i class="fas fa-long-arrow-alt-right"></i> Emergency Services</a></li>
+                    <li class="footer-li"><a href="#" ><i class="fas fa-long-arrow-alt-right"></i> Qualified Doctors</a></li>
+                    <li class="footer-li"><a href="#" ><i class="fas fa-long-arrow-alt-right"></i> Outdoor Checkup</a></li>
+                    <li class="footer-li"><a href="#" ><i class="fas fa-long-arrow-alt-right"></i> 24 Hours Services</a></li>
+                </ul>
+            </div>
+            <div class="flex-container-vertical">
+                <p class="font-1"> <strong>Have a Questions? </strong></p>
+                <table>
+                    <tr>
+                        <td><i class="fa-solid fa-location-dot"></i></td>
+                        <td class="detail font-1 padding-left-10">203 Fake St. Mountain View San Fransisco, California, USA</td>
+                    </tr>
+                    <tr>
+                        <td><li class="footer-li"><i class="fa-solid fa-phone"></i></td>
+                        <td class="padding-left-10 padding-top-5"><li class="footer-li"><a href="tel:+923004344082"> + 92 300 43 44 082 </a></li></td>
+                    </tr>
+                    <tr>
+                        <td><li class="footer-li"><i class="fa-solid fa-envelope"></i></td>
+                        <td class="padding-left-10 padding-top-5"><li class="footer-li"><a href="mailto: adan.asim@devsinc.com"> adan.asim@devsinc.com  </a></li></td>
+                    </tr>
+                </table>
+            </div>
+            <p class="detail font-1 horizontal-center">Copyright &#169;2022 All rights reserved | This template is made with <i class="fas fa-heart"></i> by <span class="text-primary">Colorlib</span></p>
+        </div>       
+      </div>
+</body>
+</html>
