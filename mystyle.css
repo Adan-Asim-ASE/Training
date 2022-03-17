@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1200px)
+@media only screen and (max-width: 1000px)
         {
             header
             {
@@ -44,7 +44,7 @@
             }
             #update
             {
-                margin-top: 100%;
+                margin-top: 20%;
             }
             .flex-container-horizontal 
             {
@@ -66,10 +66,17 @@
               height: 200%;
               background-size: cover;          
             }
+            .blue-overlay-bg1
+            {
+              height: 210% !important;
+            }
+            .font-2{ font-size: 100%; font-weight: bolder;}
+            .padding-top-10{padding-top: 25% !important;}
         }
         body, html {
           height: 100%;
           font-family: 'Poppins', Helvetica, sans-serif;
+          overflow-x: hidden;
         }
         .background_main
         {
@@ -160,7 +167,7 @@
         }
         .card-width
         {
-          width: 23em;
+          width: 230%;
         }
         .contact-card-width
         {
@@ -242,7 +249,7 @@
 			      list-style: none;
             color: rgba(30, 144, 255, 0.8);
             padding-bottom: 5%;
-		}
+		    }
 
         #our-services
         {
@@ -268,14 +275,13 @@
         .padding-top-10{padding-top: 10%;}
         .padding-top-5{padding-top: 5%;}
         .padding-top-1{padding-top: 0.7%;}
-        .margin-top-100{margin-top: 100%;}
+        .margin-top-100{margin-top: 90% ;}
         .padding-auto{padding: auto;}
         .padding-left-10{padding-left: 10%;}
         .padding-left-50{padding-left: 48%;}
         .btn-white{background-color: white;}
         .font-4{ font-size: 400%; font-weight: bolder;}
-        .font-2{ font-size: 2em; font-weight: bolder;}
-        .font-1{ font-size: 100%; font-weight: bolder;}
+        .font-2{ font-size: 200%; font-weight: bolder;}
         .font-less-1{ font-size: 0.8em;}
         .row-margin-05 { margin-bottom: 0.5em; }
         .row-margin-10 { margin-bottom: 1.0em; }
