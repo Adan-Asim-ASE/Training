@@ -167,7 +167,7 @@
         }
         .card-width
         {
-          width: 230%;
+          width: 23em;
         }
         .contact-card-width
         {
@@ -271,6 +271,7 @@
         .padding-top-15{padding-top: 15%;}
         .padding-top-25{padding-top: 25%;}
         .padding-top-150{padding-top: 150%;}
+        .padding-top-50{padding-top: 50%;}
         .padding-top-20{padding-top: 20%;}
         .padding-top-10{padding-top: 10%;}
         .padding-top-5{padding-top: 5%;}
@@ -292,3 +293,4 @@
         .row-margin-60 { margin-bottom: 6.0em; }
         .row-margin-70 { margin-bottom: 7.0em; }
         .row-margin-80 { margin-bottom: 8.0em; }
+        
